@@ -40,4 +40,10 @@ module.exports = {
         ],
       },
 
+      devServer : {
+          watchContentBase: true,
+          contentBase: path.resolve(__dirname,'dist'),
+          open: true
+      }
+
 };
