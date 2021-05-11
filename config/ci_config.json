@@ -11,7 +11,7 @@
             }
         ]
     },
-    "base_image_tag": "node-v16.1.0",
+    "base_image_tag": "node-v15.0.0",
     "dependencies": {
         "installDepsCmd": "echo install",
         "requiredFiles": []
