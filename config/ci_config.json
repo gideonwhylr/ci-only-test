@@ -4,6 +4,11 @@
             {
                 "root": "dist"
             }
+        ], 
+        "goTemplates": [
+            {
+                "root": "templates"
+            }
         ]
     },
     "dependencies": {
