@@ -1,5 +1,5 @@
 import _ from 'lodash';
-import './main.scss';
+import './styles.css';
 
 var myTemplate = require("./myTemplate.hbs");
 

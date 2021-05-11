@@ -20,8 +20,18 @@ module.exports = {
     module: {
         rules: [
           {
-            test: /\.scss$/,
-            use: ['style-loader', 'css-loader', 'sass-loader'],
+            test: /\.css$/,
+            use: [
+            // Order is last to first
+                'style-loader',
+                {
+                    loader: 'css-loader',
+                    options: {
+                        importLoaders: 1
+                    }
+                }, 
+                'postcss-loader'
+            ],
           },
           {
             test: /\.hbs$/,
